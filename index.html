@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Артём Исламов - веб-разработчик, фрилансер</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar container">
         <img src="медиафайлы/логотип.svg" alt="Logo">
         <nav class="navigation">
             <ul class="nav-list">
@@ -21,5 +22,55 @@
             </ul>
         </nav>
     </div>
+    <!-- /.navbar -->
+
+    <header class="header container">
+        <img src="медиафайлы/аватар.png" alt="Артём Исламов" class="header-photo">
+        <!-- /header-photo-->
+        <div class="header-text">
+            <strong class="header-strong">Привет 👋</strong>
+            <h1 class="header-heading">
+                <span class="header-primary">Я фронтенд-разработчик и веб-дизайнер</span><br>
+                Меня зовут Артем Исламов и я делаю<br>
+                сайты для людей и компаний
+            </h1>
+            <div class="header-links">
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="" class="social-link"><img src="медиафайлы/linkedin.svg" alt="linkedin" class="social-logo"></a></li>
+                    <li class="social-item">
+                        <a href="" class="social-link"><img src="медиафайлы/twitter.svg" alt="twitter" class="social-logo"></a></li>
+                    <li class="social-item">
+                        <a href="" class="social-link"><img src="медиафайлы/github.svg" alt="github" class="social-logo"></a></li>
+                    <li class="social-item">
+                        <a href="" class="social-link"><img src="медиафайлы/stackoverflow.svg" alt="stackoverflow" class="social-logo"></a></li>
+                    <li class="social-item">
+                        <a href="" class="social-link"><img src="медиафайлы/youtube.svg" alt="youtube" class="social-logo"></a></li>
+                </ul>
+                <a href="#" class="cv-download" download>
+                    <img src="медиафайлы/download.svg" alt="download-icon" class="cv-icon">
+                    <cpan class="cv-text">Скачать резюме</cpan>
+                </a>
+
+            </div>
+            <!-- /.header-links -->
+        </div>
+        <!-- /header-text-->
+    </header>
+    <!-- /.header -->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="section-heading">Последние проекты</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="медиафайлы/image 1.jpg" alt="Мобильное приложение" class="card-image">
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.cards -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.portfolio -->
 </body>
 </html>
