@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     font-family: "Inter", sans-serif;
 }
@@ -113,7 +114,7 @@ body {
     margin-bottom: 40px;
 }
 
-.card-image{
+.card-image {
     max-width: 100%;
 }
 
@@ -258,7 +259,7 @@ body {
     padding: 80px 0 160px;
 }
 
-.feedback-hand{
+.feedback-hand {
     position: absolute;
     right: 0;
     top: 20%;
@@ -281,7 +282,7 @@ body {
     left: 16px;
 }
 
-.input-group{
+.input-group {
     padding-top: 9px;
     margin-bottom: 24px;
 }
@@ -293,17 +294,17 @@ body {
     height: 56px;
 }
 
-.textarea{
+.textarea {
     padding: 15px;
     min-height: 140px;
 }
 
-.form-container{
+.form-container {
     max-width: 435px;
     margin: auto;
 }
 
-.submit-button{
+.submit-button {
     padding: 7px 8px;
     display: flex;
     align-items: center;
@@ -318,90 +319,118 @@ body {
     cursor: pointer;
 }
 
-.button-group{
+.button-group {
     display: flex;
     justify-content: flex-end;
 }
 
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #83807C;
+}
+
 @media (max-width: 1024px) {
-    .container{
+    .container {
         max-width: 760px;
     }
-    .card{
+
+    .card {
         max-width: 350px;
     }
 }
 
 @media (max-width: 790px) {
-    .container{
+    .container {
         max-width: 576px;
     }
-    .header-photo{
+
+    .header-photo {
         max-width: 150px;
     }
-    .header-strong{
+
+    .header-strong {
         font-size: 36px;
     }
-    .header-heading{
+
+    .header-heading {
         font-size: 18px;
     }
-    .cv-download{
+
+    .cv-download {
         margin-left: 15px;
     }
-    .card{
+
+    .card {
         max-width: 45%;
     }
-    .card-text-wrapper{
+
+    .card-text-wrapper {
         padding: 8px 0;
     }
-    .developer{
+
+    .developer {
         flex-direction: column;
     }
-    .developer-photo{
+
+    .developer-photo {
         width: 100%;
         height: 360px;
         margin-bottom: 30px;
     }
-    .developer-about{
+
+    .developer-about {
         margin-left: 0;
         padding-left: 20px;
     }
-    .feedback-hand{
+
+    .feedback-hand {
         display: none;
     }
 }
 
 @media (max-width: 600px) {
-    .container{
+    .container {
         max-width: 90%;
     }
-    .header{
+
+    .header {
         padding-top: 30px;
         flex-direction: column;
         text-align: center;
     }
-    .header-links, .cards, .navbar{
+
+    .header-links,
+    .cards,
+    .navbar {
         flex-direction: column;
     }
-    .cv-download{
+
+    .cv-download {
         margin-left: 0px;
     }
-    .card{
+
+    .card {
         max-width: 100%;
     }
-   .tags{
-    flex-wrap: wrap;
-   }
+
+    .tags {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 480px) {
-    .form-container{
+    .form-container {
         width: 90%;
     }
-    .nav-list{
+
+    .nav-list {
         flex-direction: column;
     }
-    .nav-link{
+
+    .nav-link {
         margin-left: 0;
         margin-bottom: 10px;
     }
