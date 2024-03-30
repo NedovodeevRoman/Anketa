@@ -294,6 +294,7 @@ body {
 }
 
 .textarea{
+    padding: 15px;
     min-height: 140px;
 }
 
