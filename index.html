@@ -17,15 +17,15 @@
         <img src="медиафайлы/логотип.svg" alt="Logo">
         <nav class="navigation">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+                <li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+                <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
             </ul>
         </nav>
     </div>
     <!-- /.navbar -->
-    <header class="header container">
+    <header class="header container" id="main">
         <img src="медиафайлы/аватар.png" alt="Артём Исламов" class="header-photo">
         <!-- /header-photo-->
         <div class="header-text">
@@ -58,7 +58,7 @@
                                 class="social-logo"></a>
                     </li>
                 </ul>
-                <a href="#" class="cv-download" download>
+                <a href="cv.pdf" class="cv-download" download>
                     <img src="медиафайлы/download.svg" alt="download-icon" class="cv-icon">
                     <cpan class="cv-text">Скачать резюме</cpan>
                 </a>
@@ -68,7 +68,7 @@
         <!-- /header-text-->
     </header>
     <!-- /.header -->
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <h2 class="section-heading">Последние проекты</h2>
             <div class="cards">
@@ -131,7 +131,7 @@
         <!-- /.container -->
     </section>
     <!-- /.portfolio -->
-    <section class="developer container">
+    <section class="developer container" id="developer">
         <img src="медиафайлы/developer-photo.png" alt="Артем Исламов" class="developer-photo">
         <div class="developer-about">
             <span class="developer-hello">Рад вас видеть</span>
@@ -149,7 +149,7 @@
         <!-- /.develover-about -->
     </section>
     <!-- /.developer container -->
-    <section class="skills container">
+    <section class="skills container" id="skills">
         <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
         <ul class="tags">
             <li class="tags-item"><a href="#" class="tag">HTML</a></li>
@@ -164,7 +164,9 @@
         </ul>
     </section>
     <!-- /.skills-->
-    <section class="feedback form-container">
+    <section class="feedback" id="feedback">
+        <img src="медиафайлы/hand.png" alt="hand" class="feedback-hand">
+        <div class="form-container">
         <h2 class="feedback-title">Готов обсудить проект...</h2>
         <form action="#" class="form">
             <div class="input-group">
@@ -188,7 +190,9 @@
                     <cpan class="cv-text">Отпроавить</cpan>
                 </button>
             </div>
+            <!-- /.button-group -->
         </form>
+    </div>
     </section>
     <!-- /.feedback -->
 </body>
