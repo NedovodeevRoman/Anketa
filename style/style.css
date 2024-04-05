@@ -6,6 +6,17 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.fon{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+
 .navbar {
     padding-top: 40px;
     display: flex;
@@ -22,7 +33,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #bf7506;
+    color: #0906bf;
     margin-left: 24px;
     font-size: 16px;
     line-height: 150%;
@@ -38,10 +49,23 @@ body {
     margin: auto;
 }
 
+.list{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color: #ffffff;
+}
+
 .header {
     display: flex;
     align-items: center;
     padding: 70px 0;
+}
+
+.header-photo{
+    max-width: 300px;
 }
 
 .header-text {
@@ -64,7 +88,7 @@ body {
 }
 
 .header-primary {
-    color: #bf7506;
+    color: #0906bf;
 }
 
 .social-list {
@@ -94,7 +118,7 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: #211b12;
-    border-bottom: 2px solid #bf7506;
+    border-bottom: 2px solid #0906bf;
 }
 
 .cv-icon {
@@ -106,7 +130,7 @@ body {
     font-size: 48px;
     line-height: 125%;
     letter-spacing: -0.03em;
-    color: #bf7506;
+    color: #0906bf;
 }
 
 .card {
@@ -128,7 +152,7 @@ body {
     font-size: 24px;
     line-height: 135%;
     letter-spacing: -0.02em;
-    color: #bf7506;
+    color: #0906bf;
     margin-top: 0;
     margin-bottom: 8px;
 }
@@ -158,7 +182,7 @@ body {
     text-decoration: none;
     color: #211B12;
     background: #ffffff;
-    border: 1px solid #dd9c3c;
+    border: 1px solid #0906bf;
     border-radius: 4px;
     margin-right: 4px;
     margin-bottom: 4px;
@@ -178,7 +202,7 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: #211B12;
-    border-bottom: 2px solid #bf7506;
+    border-bottom: 2px solid #0906bf;
     margin-right: 25px;
 }
 
@@ -223,7 +247,7 @@ body {
     font-size: 32px;
     line-height: 125%;
     letter-spacing: -0.03em;
-    color: #bf7506;
+    color: #0906bf;
     margin-top: 4px;
     margin-bottom: 16px;
 }
@@ -238,7 +262,7 @@ body {
 .motto {
     font-size: 24px;
     line-height: 150%;
-    color: #dd9c3c;
+    color: #514fbb;
     margin: 16px 0;
 }
 
@@ -314,7 +338,7 @@ body {
     line-height: 150%;
     color: #211b12;
     border: none;
-    border-bottom: 2px solid #bf7506;
+    border-bottom: 2px solid #0906bf;
     background-color: #fff;
     cursor: pointer;
 }
@@ -332,7 +356,7 @@ body {
     color: #83807C;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1030px) {
     .container {
         max-width: 760px;
     }
@@ -342,7 +366,7 @@ body {
     }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 980px) {
     .container {
         max-width: 576px;
     }
@@ -391,7 +415,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
     .container {
         max-width: 90%;
     }
@@ -421,7 +445,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
     .form-container {
         width: 90%;
     }
